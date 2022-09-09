@@ -24,4 +24,4 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: "next-test-develop"
           heroku_email: "gegham@zuckagency.com"
-          procfile: "web: npm run server-json & npm run build & npm start"
+          procfile: "web: npm run server-json"
